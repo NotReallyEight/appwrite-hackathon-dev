@@ -1,0 +1,11 @@
+{
+  "name": "blogs-app",
+  "version": "0.0.1",
+  "description": "A simple blog post application to interact with people all around the globe.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NotReallyEight",
+  "license": "MIT"
+}
