@@ -1,0 +1,12 @@
+.footer {
+	height: 50px;
+	width: 100%;
+	background-color: #384b42;
+}
+
+.footer-text {
+	margin: auto;
+	color: #c0dbf2;
+	font-family: "Trirong";
+	font-size: 30px;
+}

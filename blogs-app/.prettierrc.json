@@ -7,5 +7,19 @@
 	"semi": true,
 	"tabWidth": 2,
 	"trailingComma": "es5",
-	"useTabs": true
+	"useTabs": true,
+	"overrides": [
+		{
+			"files": "*.{ts,tsx}",
+			"options": {
+				"parser": "typescript"
+			}
+		},
+		{
+			"files": "*.css",
+			"options": {
+				"parser": "css"
+			}
+		}
+	]
 }

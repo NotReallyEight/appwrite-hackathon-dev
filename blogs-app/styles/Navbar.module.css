@@ -1,0 +1,38 @@
+.navbar {
+	background-color: #8aa4ba;
+	color: #384b42;
+	padding: 10px;
+	grid-template-areas: "app-name login-button";
+	display: grid;
+	font-size: 40px;
+	height: 100px;
+}
+
+.app-name {
+	font-family: "Raleway";
+	text-align: center;
+	width: -moz-fit-content;
+	width: fit-content;
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.login-button {
+	all: unset;
+	background-color: #c0dbf2;
+	padding: 5px 30px;
+	width: -moz-fit-content;
+	width: fit-content;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	cursor: pointer;
+	transition-duration: 0.25s;
+	border-radius: 5px;
+}
+
+.login-button:hover {
+	color: #c0dbf2;
+	background: #384b42;
+	text-decoration: underline;
+}
